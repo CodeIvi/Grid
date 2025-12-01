@@ -1,0 +1,6 @@
+@mixin dispositivos($tamanio){
+    @media screen and (min-width: $tamanio) {
+        @content;
+        
+    }
+}
