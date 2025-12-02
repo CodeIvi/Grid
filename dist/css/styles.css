@@ -54,9 +54,9 @@
 }
 .contenedor aside {
   background-color: green;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  grid-column-start: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
   grid-column-end: 5;
 }
 @media screen and (min-width: 480px) {
@@ -71,13 +71,17 @@
     border: 1px solid black;
   }
 }
+.contenedor footer {
+  background-color: blue;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
 @media screen and (min-width: 480px) {
   .contenedor footer {
     grid-row-start: 4;
     grid-row-end: 5;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    background-color: blue;
     grid-column-start: 1;
     grid-column-end: 5;
   }
